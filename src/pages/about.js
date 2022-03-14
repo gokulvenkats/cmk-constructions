@@ -1,0 +1,62 @@
+import * as React from "react";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+
+export default function About() {
+  return (
+    <Layout>
+      <Seo title="About Us" />
+      <div class="bg-white p-12 py-24">
+        <div class="max-w-2xl mx-auto text-center mb-12">
+          <h2 class="font-black leading-tight text-xl md:text-3xl mb-4">
+            A Full-Fledged Construction Company
+          </h2>
+          <p class="text-sm md:text-base uppercase font-condensed max-w-lg mx-auto">
+            A Highly Professional Construction Company From Salem
+          </p>
+        </div>
+
+        <div class="container mx-auto">
+          <div class="flex flex-wrap justify-center items-center">
+            <div class="mb-12 lg:mb-0 w-full lg:w-3/12 text-right">
+              <div class="bg-white p-4 rounded-lg shadow-lg w-full">
+                <img
+                  src="https://images.unsplash.com/photo-1493286825465-8b922d030e9c?w=800"
+                  class="w-full h-auto object-cover rounded"
+                />
+              </div>
+            </div>
+
+            <div class="w-full lg:flex-1 max-w-2xl text-sm lg:pl-12 text-gray-800">
+              <h3 class="text-xl mb-3">
+                Blandit volutpat maecenas volutpat blandit aliquam etiam
+              </h3>
+              <p class="mb-3">
+                Ac auctor augue mauris augue neque gravida in fermentum et. Nunc
+                id cursus metus aliquam eleifend mi in nulla posuere. Erat velit
+                scelerisque in dictum non. Ut enim blandit volutpat maecenas
+                volutpat. Blandit massa enim nec dui nunc mattis enim. Cursus
+                risus at ultrices mi tempus imperdiet.
+              </p>
+              <p class="mb-3">
+                Iaculis eu non diam phasellus vestibulum lorem sed risus. Lacus
+                suspendisse faucibus interdum posuere lorem ipsum dolor sit
+                amet. Nibh ipsum consequat nisl vel pretium lectus quam id.
+                Convallis aenean et tortor at risus viverra. Sed odio morbi quis
+                commodo odio aenean sed. Lobortis scelerisque fermentum dui
+                faucibus in. Leo urna molestie at elementum eu facilisis. Eu
+                volutpat odio facilisis mauris sit amet massa vitae.
+              </p>
+              <p>
+                Tristique senectus et netus et malesuada fames ac turpis
+                egestas. Blandit volutpat maecenas volutpat blandit aliquam
+                etiam erat velit scelerisque. Pharetra massa massa ultricies mi
+                quis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+}
